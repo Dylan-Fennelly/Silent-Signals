@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: c08f98298629463abd5a16dd84a214e9
+timeCreated: 1738060351
+AssetOrigin:
+  serializedVersion: 1
+  productId: 305396
+  packageName: Rabbit Logger
+  packageVersion: 1.0
+  assetPath: Packages/com.crashkonijn.logger/Documentation/unity-log-target.md
+  uploadId: 738892

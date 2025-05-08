@@ -1,0 +1,20 @@
+{
+    "name": "com.crashkonijn.logger.editor.Odin",
+    "rootNamespace": "CrashKonijn.Logger.Editor.Odin",
+    "references": [
+        "GUID:905ad4c0c55c4e05bf319903fe4d0bd4"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "ODIN_INSPECTOR_3"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

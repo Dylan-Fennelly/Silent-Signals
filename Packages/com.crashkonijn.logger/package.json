@@ -1,0 +1,22 @@
+{
+  "name": "com.crashkonijn.logger",
+  "version": "0.0.1",
+  "displayName": "Rabbit Logger",
+  "description": "",
+  "unity": "2022.2",
+  "unityRelease": "8f1",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "dependencies": {
+  },
+  "keywords": [
+  ],
+  "author": {
+    "name": "CrashKonijn",
+    "email": "crashkonijn@gmail.com",
+    "url": "https://crashkonijn.com"
+  },
+  "samples": [
+  ]
+}

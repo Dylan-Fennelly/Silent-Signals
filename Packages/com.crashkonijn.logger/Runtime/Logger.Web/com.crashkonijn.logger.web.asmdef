@@ -1,0 +1,21 @@
+{
+    "name": "com.crashkonijn.logger.web",
+    "rootNamespace": "CrashKonijn.Logger.Web",
+    "references": [
+        "GUID:04376767bc1f3b428aefa3d20743e819",
+        "GUID:905ad4c0c55c4e05bf319903fe4d0bd4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Newtonsoft.Json.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "RABBIT_LOGGER_WEB"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

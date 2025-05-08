@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: a1c0a5a7468441c2b0ef0778f68e821f
+timeCreated: 1734438139
+AssetOrigin:
+  serializedVersion: 1
+  productId: 305396
+  packageName: Rabbit Logger
+  packageVersion: 1.0
+  assetPath: Packages/com.crashkonijn.logger/Runtime/Logger/Enums/DebugSeverity.cs
+  uploadId: 738892

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 21502ae341ca490ba982d7cea0f1ac9e
+timeCreated: 1734438452
+AssetOrigin:
+  serializedVersion: 1
+  productId: 305396
+  packageName: Rabbit Logger
+  packageVersion: 1.0
+  assetPath: Packages/com.crashkonijn.logger/Runtime/Logger.Demo/com.crashkonijn.logger.demo.asmdef
+  uploadId: 738892

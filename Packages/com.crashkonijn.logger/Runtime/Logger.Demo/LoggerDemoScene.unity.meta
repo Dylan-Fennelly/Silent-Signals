@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 112d59f140d82fd4f9c63ec47a5272c7
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 305396
+  packageName: Rabbit Logger
+  packageVersion: 1.0
+  assetPath: Packages/com.crashkonijn.logger/Runtime/Logger.Demo/LoggerDemoScene.unity
+  uploadId: 738892

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 533c85113dcab024e8e769fd4061d15c
+PackageManifestImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 305396
+  packageName: Rabbit Logger
+  packageVersion: 1.0
+  assetPath: Packages/com.crashkonijn.logger/package.json
+  uploadId: 738892

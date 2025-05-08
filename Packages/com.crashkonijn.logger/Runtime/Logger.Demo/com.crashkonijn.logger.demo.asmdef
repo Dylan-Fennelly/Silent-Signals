@@ -1,0 +1,15 @@
+{
+    "name": "com.crashkonijn.logger.demo",
+    "rootNamespace": "CrashKonijn.Logger.Demo",
+    "references": ["GUID:905ad4c0c55c4e05bf319903fe4d0bd4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

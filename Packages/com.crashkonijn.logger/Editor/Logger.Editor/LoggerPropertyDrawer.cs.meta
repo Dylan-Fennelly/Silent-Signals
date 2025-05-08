@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: a0fa4af9e0ed4e62b032e5a849b714fc
+timeCreated: 1733568624
+AssetOrigin:
+  serializedVersion: 1
+  productId: 305396
+  packageName: Rabbit Logger
+  packageVersion: 1.0
+  assetPath: Packages/com.crashkonijn.logger/Editor/Logger.Editor/LoggerPropertyDrawer.cs
+  uploadId: 738892

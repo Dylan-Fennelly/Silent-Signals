@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: fba3700b57c6434da0bcc76022ebbe0a
+timeCreated: 1734353180
+AssetOrigin:
+  serializedVersion: 1
+  productId: 305396
+  packageName: Rabbit Logger
+  packageVersion: 1.0
+  assetPath: Packages/com.crashkonijn.logger/Runtime/Logger/LogConfig.cs
+  uploadId: 738892

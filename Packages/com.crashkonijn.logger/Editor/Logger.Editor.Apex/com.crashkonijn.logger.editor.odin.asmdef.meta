@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: 5e5d779a7f51400395767aa5579ed435
+timeCreated: 1739351085
+AssetOrigin:
+  serializedVersion: 1
+  productId: 305396
+  packageName: Rabbit Logger
+  packageVersion: 1.0
+  assetPath: Packages/com.crashkonijn.logger/Editor/Logger.Editor.Apex/com.crashkonijn.logger.editor.odin.asmdef
+  uploadId: 738892
