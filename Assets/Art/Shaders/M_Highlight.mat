@@ -234,7 +234,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Rim_Power: 1.9
+    - _Rim_Power: 4.54
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
@@ -288,7 +288,7 @@ Material:
     - _Highlight_Colour: {r: 1, g: 0.8874891, b: 0, a: 1}
     - _InvPrimScale: {r: 1, g: 1, b: 0, a: 0}
     - _IridescenceThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
-    - _Rim_Colour: {r: 0, g: 0.93155813, b: 1, a: 1}
+    - _Rim_Colour: {r: 0, g: 7.999999, b: 7.2497587, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
     - _ThicknessRemap: {r: 0, g: 1, b: 0, a: 0}
     - _TransmittanceColor: {r: 1, g: 1, b: 1, a: 1}
