@@ -567,12 +567,6 @@
     "m_Name": "Fresnal Effect",
     "m_ChildObjectList": [
         {
-            "m_Id": "4e3f11af1dd3473ba7e46dcf1a8120ba"
-        },
-        {
-            "m_Id": "b35ae371dedc44009d58544c399303d8"
-        },
-        {
             "m_Id": "1690f215735b45879562de17cd9b179b"
         },
         {
@@ -580,6 +574,12 @@
         },
         {
             "m_Id": "739f1330ff5b453bbe080f77ff1fadb7"
+        },
+        {
+            "m_Id": "4e3f11af1dd3473ba7e46dcf1a8120ba"
+        },
+        {
+            "m_Id": "b35ae371dedc44009d58544c399303d8"
         }
     ]
 }
@@ -626,9 +626,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -261.0,
-            "y": 869.0000610351563,
-            "width": 161.00003051757813,
+            "x": -260.0,
+            "y": 822.9999389648438,
+            "width": 160.99996948242188,
             "height": 34.0
         }
     },
@@ -1075,10 +1075,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -47.0,
-            "y": 792.0,
+            "x": -51.000022888183597,
+            "y": 754.9999389648438,
             "width": 248.0,
-            "height": 327.0
+            "height": 327.00006103515627
         }
     },
     "m_Slots": [
@@ -1145,9 +1145,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -259.9999694824219,
-            "y": 817.0000610351563,
-            "width": 160.99998474121095,
+            "x": -256.0,
+            "y": 759.9999389648438,
+            "width": 161.0,
             "height": 34.0
         }
     },
@@ -1387,9 +1387,9 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -239.00006103515626,
-            "y": 1234.0001220703125,
-            "width": 166.00001525878907,
+            "x": -275.0,
+            "y": 1302.0,
+            "width": 166.0,
             "height": 34.0
         }
     },
@@ -2063,10 +2063,10 @@
     "m_Name": "Smoothness",
     "m_ChildObjectList": [
         {
-            "m_Id": "c90864e704354ae38d1753cd22cbac20"
+            "m_Id": "b796b38e35b74c808f8f4aa5497f47a4"
         },
         {
-            "m_Id": "b796b38e35b74c808f8f4aa5497f47a4"
+            "m_Id": "c90864e704354ae38d1753cd22cbac20"
         }
     ]
 }
@@ -2588,10 +2588,10 @@
     },
     "m_Slots": [
         {
-            "m_Id": "5e5fbe46a4dc4b6bb9bcd560f8346e92"
+            "m_Id": "3869f317e48b456ea76d852fac519743"
         },
         {
-            "m_Id": "3869f317e48b456ea76d852fac519743"
+            "m_Id": "5e5fbe46a4dc4b6bb9bcd560f8346e92"
         },
         {
             "m_Id": "79561eab86684bfa9e61a325fb937217"
