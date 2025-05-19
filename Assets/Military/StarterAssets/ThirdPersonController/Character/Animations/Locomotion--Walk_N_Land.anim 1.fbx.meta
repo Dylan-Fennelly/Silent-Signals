@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-guid: 325a26d62b61fa94cb3c97c435efebc5
-AssetOrigin:
-  serializedVersion: 1
-  productId: 181470
-  packageName: Survivalist character
-  packageVersion: 1.1
-  assetPath: Assets/Military/StarterAssets/ThirdPersonController/Character/Animations/Locomotion--Walk_N_Land.anim.fbx
-  uploadId: 693203
+guid: db46e17f187102642954a724c789a6c6
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable:
@@ -55,8 +48,8 @@ ModelImporter:
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
-      loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
