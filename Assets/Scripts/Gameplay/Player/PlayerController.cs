@@ -1,12 +1,17 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Unity.Cinemachine;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
     [Header("References")]
     public CharacterController characterController;
     public CinemachineCamera playerCamera;
+    public Animator playerAnimator;
+    public TextMeshProUGUI interactableText;
+    private GameObject lastOutlinedObject;
+
 
     [Header("Settings")]
     public float moveSpeed = 5f;
@@ -54,12 +59,20 @@ public class PlayerController : MonoBehaviour
         HandleMovement();
         HandleMouseLook();
         HandleInteractionRaycast();
+        
     }
 
     private void HandleMovement()
     {
         Vector3 move = transform.right * moveInput.x + transform.forward * moveInput.y;
         characterController.SimpleMove(move * moveSpeed);
+
+        // Calculate movement velocity on the horizontal plane
+        float horizontalVelocity = new Vector3(characterController.velocity.x, 0, characterController.velocity.z).magnitude;
+
+        // Toggle walking animation
+        bool isWalking = horizontalVelocity > 0.1f;
+        playerAnimator.SetBool("isMoving", isWalking);
     }
 
     private void HandleMouseLook()
@@ -80,25 +93,61 @@ public class PlayerController : MonoBehaviour
         if (Physics.Raycast(ray, out hit, interactionDistance, interactableMask))
         {
             interactable = hit.collider.GetComponent<IInteractable>();
-            outline = hit.collider.GetComponent<OutlineEffect>();
-        }
 
-        // Handle outline effect
-        if (outline != currentOutline)
+            // Show interactable name only if different
+            if (interactable != null)
+            {
+                string name = interactable.GetInteractableName();
+
+                if (!interactableText.gameObject.activeSelf)
+                    interactableText.gameObject.SetActive(true);
+
+                if (interactableText.text != name)
+                    interactableText.text = name;
+            }
+
+            // Outline only if the object changed
+            if (hit.collider.gameObject != lastOutlinedObject)
+            {
+                if (currentOutline != null)
+                    currentOutline.SetOutlined(false);
+
+                outline = hit.collider.GetComponent<OutlineEffect>();
+                if (outline != null)
+                    outline.SetOutlined(true);
+
+                currentOutline = outline;
+                lastOutlinedObject = hit.collider.gameObject;
+            }
+
+            currentInteractable = interactable;
+        }
+        else
         {
-            if (currentOutline !=null) currentOutline.SetOutlined(false);
-            if (outline!= null) outline.SetOutlined(true);
-            currentOutline = outline;
-        }
+            // Clear UI and outline
+            interactableText.gameObject.SetActive(false);
 
-        currentInteractable = interactable;
+            if (currentOutline != null)
+            {
+                currentOutline.SetOutlined(false);
+                currentOutline = null;
+                lastOutlinedObject = null;
+            }
+
+            currentInteractable = null;
+        }
     }
+
+
 
     private void TryInteract()
     {
+        //playerAnimator.SetTrigger("grab");
         if (currentInteractable != null)
         {
+            playerAnimator.SetTrigger("grab");
             currentInteractable.Interact();
+            interactableText.gameObject.SetActive(false);
         }
     }
 }

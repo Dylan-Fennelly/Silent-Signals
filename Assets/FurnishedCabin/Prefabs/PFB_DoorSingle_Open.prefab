@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 54000010411257790}
   - component: {fileID: 65000012842617406}
   - component: {fileID: 2358876954904144421}
+  - component: {fileID: 6189849349175485637}
   m_Layer: 8
   m_Name: DoorSingle
   m_TagString: Untagged
@@ -174,6 +175,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openAngle: 90
   duration: 1
+  rotationAxis: 1
+--- !u!114 &6189849349175485637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011161387954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01bb2157174be2418838052435eca29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000011938713744
 GameObject:
   m_ObjectHideFlags: 0
