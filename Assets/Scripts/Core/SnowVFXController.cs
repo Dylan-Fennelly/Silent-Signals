@@ -7,6 +7,7 @@ public class SnowVFXController : MonoBehaviour
 {
     public VisualEffect snowEffect;
     public SnowVFXSettings currentSettings;
+    public 
 
     void Start()
     {
