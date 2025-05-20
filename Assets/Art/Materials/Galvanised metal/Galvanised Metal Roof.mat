@@ -243,12 +243,12 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Second_Map_Height: 6.7
-    - _Secondary_Texture_Threashold: 0
+    - _Second_Map_Height: 6.54
+    - _Secondary_Texture_Threashold: 0.019
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
-    - _Smoothness_Strength: 0.431
+    - _Smoothness_Strength: 0.333
     - _SpecularAAScreenSpaceVariance: 0.1
     - _SpecularAAThreshold: 0.2
     - _SpecularOcclusionMode: 1
