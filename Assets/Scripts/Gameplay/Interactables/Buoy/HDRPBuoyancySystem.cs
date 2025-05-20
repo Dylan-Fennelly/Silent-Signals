@@ -17,6 +17,7 @@ public class HDRPBuoyancySystem : MonoBehaviour
 
     [Header("Tether Settings")]
     public Transform anchorPoint;      // Anchor or boat position
+    public Transform tetherPoint;      // Point on the buoy to attach the tether
     public float tetherStrength = 5f;  // Pull force strength
     public float ropeLength = 5f;      // Max slack
     public float reelSpeed = 2f;       // Units per second when reeling
@@ -83,10 +84,10 @@ public class HDRPBuoyancySystem : MonoBehaviour
 
     void LateUpdate()
     {
-        if (lineRenderer != null && anchorPoint != null)
+        if (lineRenderer != null && anchorPoint != null &&tetherPoint !=null)
         {
             lineRenderer.SetPosition(0, anchorPoint.position);
-            lineRenderer.SetPosition(1, transform.position);
+            lineRenderer.SetPosition(1, tetherPoint.position);
         }
     }
 
