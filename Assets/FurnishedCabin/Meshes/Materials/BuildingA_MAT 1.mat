@@ -193,6 +193,7 @@ Material:
     - _AlphaRemapMax: 1
     - _AlphaRemapMin: 0
     - _AlphaSrcBlend: 1
+    - _Ambient_Occulsion_Strength: 1
     - _Anisotropy: 0
     - _BlendMode: 0
     - _BumpScale: 1
@@ -244,7 +245,7 @@ Material:
     - _LinkDetailsWithBase: 0
     - _MaterialID: 1
     - _MaterialTypeMask: 2
-    - _Metalliac_Strength: 0.17
+    - _Metalliac_Strength: 0
     - _Metallic: 1
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
@@ -313,6 +314,7 @@ Material:
     - _UVSec: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
+    - _Use_Ambient_Occulsion: 0
     - _Use_Metallic_Map: 0
     - _Use_Smoothness: 0
     - _ZTestDepthEqualForOpaque: 3
