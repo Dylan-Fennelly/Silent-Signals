@@ -182,6 +182,7 @@ Material:
     - _AORemapMin: 0
     - _ATDistance: 1
     - _AddPrecomputedVelocity: 0
+    - _Additon_Amount: 1
     - _AlbedoAffectEmissive: 0
     - _AlphaCutoff: 0.5
     - _AlphaCutoffEnable: 0
@@ -291,6 +292,7 @@ Material:
     - _StencilWriteMaskGBuffer: 15
     - _StencilWriteMaskMV: 41
     - _SubsurfaceMask: 1
+    - _Subtract_Amount: 1
     - _SupportDecals: 1
     - _SurfaceType: 0
     - _TexWorldScale: 1
