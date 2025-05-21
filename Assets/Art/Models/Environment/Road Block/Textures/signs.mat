@@ -13,11 +13,12 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _DISABLE_SSR_TRANSPARENT
+  - _DOUBLESIDED_ON
   m_InvalidKeywords:
   - _NORMALMAP_TANGENT_SPACE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2225
   stringTagMap:
     MotionVector: User
@@ -164,8 +165,8 @@ Material:
     - _BlendMode: 0
     - _CoatMask: 0
     - _ConservativeDepthOffsetEnable: 0
-    - _CullMode: 2
-    - _CullModeForward: 2
+    - _CullMode: 0
+    - _CullModeForward: 0
     - _Cutoff: 0.5
     - _DepthOffsetEnable: 0
     - _DetailAlbedoScale: 1
@@ -176,7 +177,7 @@ Material:
     - _DisplacementLockObjectScale: 1
     - _DisplacementLockTilingScale: 1
     - _DisplacementMode: 0
-    - _DoubleSidedEnable: 0
+    - _DoubleSidedEnable: 1
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 0
@@ -206,7 +207,7 @@ Material:
     - _LinkDetailsWithBase: 1
     - _MaterialID: 1
     - _MaterialTypeMask: 2
-    - _Metalliac_Strength: 0
+    - _Metalliac_Strength: 1
     - _Metallic: 0
     - _MetallicRemapMax: 1
     - _MetallicRemapMin: 0
@@ -228,12 +229,12 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Second_Map_Height: 1.35
+    - _Second_Map_Height: 10
     - _Secondary_Texture_Threashold: 0
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
-    - _Smoothness_Strength: 0
+    - _Smoothness_Strength: 1
     - _SpecularAAScreenSpaceVariance: 0.1
     - _SpecularAAThreshold: 0.2
     - _SpecularOcclusionMode: 1
@@ -268,7 +269,7 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _Use_Ambient_Occulsion: 1
+    - _Use_Ambient_Occulsion: 0
     - _Use_Metallic_Map: 0
     - _Use_Smoothness: 1
     - _ZTestDepthEqualForOpaque: 3

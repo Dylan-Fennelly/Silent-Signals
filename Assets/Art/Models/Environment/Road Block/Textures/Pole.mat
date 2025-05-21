@@ -268,7 +268,7 @@ Material:
     - _UVEmissive: 0
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
-    - _Use_Ambient_Occulsion: 1
+    - _Use_Ambient_Occulsion: 0
     - _Use_Metallic_Map: 0
     - _Use_Smoothness: 1
     - _ZTestDepthEqualForOpaque: 3

@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a031b0300e44f0b478339e78fbc2a4c2, type: 3}
   m_Name: InformationGathered
   m_EditorClassIdentifier: 
-  OceanDataGathered: 0
-  SeismicDataGathered: 0
-  WindDataGathered: 0
+  OceanDataGathered: 1
+  SeismicDataGathered: 1
+  WindDataGathered: 1

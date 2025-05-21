@@ -1,11 +1,13 @@
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.VFX;
 
 public class BuoyReelButton : MonoBehaviour, IInteractable
 {
     [Header("Target Buoy System")]
     public HDRPBuoyancySystem targetBuoy;
 
+    [SerializeField] private VisualEffect smokeEffect;
     [Header("Settings")]
     public string interactName = "Reel In Buoy";
 
@@ -23,6 +25,12 @@ public class BuoyReelButton : MonoBehaviour, IInteractable
                 new Vector3(360, 0, 0), 1f, RotateMode.FastBeyond360)
                 .SetLoops(-1, LoopType.Restart)
                 .SetEase(Ease.Linear);
+
+            if(smokeEffect != null)
+            {
+                smokeEffect.enabled = true; // Enable the smoke effect
+                smokeEffect.Play();
+            }
         }
     }
 
@@ -35,6 +43,12 @@ public class BuoyReelButton : MonoBehaviour, IInteractable
         {
             reelTween.Kill();
             transform.localRotation = Quaternion.identity; // Optional: Reset rotation
+        }
+
+        if (smokeEffect != null)
+        {
+            smokeEffect.Stop();     // Stops emission
+            smokeEffect.enabled = false; // Fully disables it (optional depending on effect type)
         }
     }
 
