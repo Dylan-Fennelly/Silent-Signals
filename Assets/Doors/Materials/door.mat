@@ -192,7 +192,7 @@ Material:
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
     - _ExcludeFromTUAndAA: 0
-    - _Fresnel_Bias: 2.89
+    - _Fresnel_Bias: 0.0306
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
     - _HeightMapParametrization: 0
@@ -210,7 +210,7 @@ Material:
     - _MASKMAP: 0
     - _MaterialID: 1
     - _MaterialTypeMask: 2
-    - _MaxBiasValue: 6.3
+    - _MaxBiasValue: 18.52
     - _Metallic: 0
     - _MetallicRemapMax: 0
     - _MetallicRemapMin: 0
@@ -235,7 +235,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Rim_Power: 6
+    - _Rim_Power: 3.95
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
@@ -277,7 +277,7 @@ Material:
     - _UseShadowThreshold: 1
     - _Use_Amibient: 0
     - _Use_Smoothness: 0
-    - _Using_Fresnel: 0
+    - _Using_Fresnel: 1
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 3
     - _ZTestTransparent: 4

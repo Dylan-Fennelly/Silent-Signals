@@ -228,8 +228,8 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Second_Map_Height: 2.37
-    - _Secondary_Texture_Threashold: 0.272
+    - _Second_Map_Height: 2.1
+    - _Secondary_Texture_Threashold: 0.16
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
@@ -270,7 +270,7 @@ Material:
     - _UseShadowThreshold: 0
     - _Use_Ambient_Occulsion: 1
     - _Use_Metallic_Map: 0
-    - _Use_Smoothness: 1
+    - _Use_Smoothness: 0
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
