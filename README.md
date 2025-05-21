@@ -96,13 +96,36 @@ The screencast demonstrates:
 ---
 
 ## 📚 References
-
+(Unless otherwise stated Materials and prefabs were obtained from Quixel Library)
 - Unity Manual: https://docs.unity3d.com/Manual/index.html
 - Shader Graph: https://unity.com/shader-graph
 - GOAP Framework by CrashKonijn: https://goap.crashkonijn.com/
+- Road Architect - https://github.com/FritzsHero/RoadArchitect
 - VFX Graph Tutorial: [Link](#)
 - Unity HDRP Documentation: https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@17.1/manual/index.html
-
+- Smoke VFX: https://www.youtube.com/watch?v=OCzGXcdyqnQ
+- Triplaner Shader: https://www.youtube.com/watch?v=mzZMlq3UAMQ&t=125s
+- FootPrint Shader: https://chatgpt.com/share/682a691e-8438-8001-97fb-666e0c2fe294
+- Snow Flakes - https://assetstore.unity.com/packages/2d/textures-materials/snowflakes-sprites-75874
+- Player Controller: https://chatgpt.com/share/682c98ac-0b88-8001-a957-128afffd1c0a
+- Buoy - "Ocean Buoy v.2 (TAO Buoy)" (https://skfb.ly/oPLJT) by TSB3DMODELS is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
+- Snow manager: https://chatgpt.com/share/682cc294-ac70-8001-a9b3-1937c0cc95f9
+- Mini map icons: https://assetstore.unity.com/packages/2d/gui/icons/modern-rpg-free-icons-pack-264706
+- SeismoGraph: https://sketchfab.com/3d-models/comms-room-assets-566a5b112384401aad622de6832b1c5c
+- Anemometer: https://grabcad.com/library/anemometer-25
+- Crates: https://assetstore.unity.com/packages/3d/props/wooden-crates-16599
+- Hanging light fixtures: https://assetstore.unity.com/packages/3d/props/interior/casual-light-pack-303168
+- Server Racks - https://sketchfab.com/3d-models/server-racking-system-6fe2cacf836b4aed96c650b286db5486
+- Table: https://assetstore.unity.com/packages/3d/environments/training-table-136070
+- Radio: https://assetstore.unity.com/packages/3d/props/hq-pbr-old-retro-radio-free-180303
+- Chairs: https://sketchfab.com/3d-models/rusty-folding-chairs-636b1ae89d9449b8bcd670adbb7eb173 https://sketchfab.com/3d-models/chairs-33b684e6ae634c36ab57960ffeca296b
+- Table and chair: https://sketchfab.com/3d-models/table-metallic-canteen-the-chair-ad9bb7337ba543aa9da267277bfd3940
+- Sky: https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633?srsltid=AfmBOorE1HysaDu9XLLwPbDs6xaypTbnZ3JoOsap4f6V8HorgVUywPPt
+- ZIL 130 Military truck - https://assetstore.unity.com/packages/3d/vehicles/land/zil-130-military-truck-208991
+- Furnished camera: https://assetstore.unity.com/packages/3d/environments/urban/furnished-cabin-71426
+- Icons Pack - https://assetstore.unity.com/packages/2d/gui/icons/modern-rpg-free-icons-pack-264706
+- Door - https://assetstore.unity.com/packages/3d/props/metal-door-5397
+- Warehouse: https://assetstore.unity.com/packages/3d/props/industrial/old-warehouse-116767
 ---
 
 ## 📌 License
