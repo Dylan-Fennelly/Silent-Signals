@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc2dd95b81c066e4f972095d0bd5db68, type: 3}
+  m_Name: Falsify Research
+  m_EditorClassIdentifier: 
+  decisionName: Publish Reports
+  consequenceMessage: "You secured the funding \u2014 but sacrificed the truth. Can
+    the planet afford your silence?"
+  fadeDuration: 2
+  isEthicalChoice: 1
+  increaseFunding: 0
+  damageEnvironment: 0
