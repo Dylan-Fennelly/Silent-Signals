@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     public float mouseSensitivity = 2f;
     public float interactionDistance = 3f;
     public LayerMask interactableMask;
+    public bool canMove = true; // Flag to control player movement
 
     [Header("Input")]
     public PlayerControls inputActions; // auto-generated input actions
@@ -56,6 +57,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        if (!canMove) return; // Skip movement if canMove is false
         HandleMovement();
         HandleMouseLook();
         HandleInteractionRaycast();

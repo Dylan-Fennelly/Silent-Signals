@@ -13,6 +13,7 @@ public class BuoyReelButton : MonoBehaviour, IInteractable
 
     private Tween reelTween;
 
+    [SerializeField] private CameraSwitcher cameraSwitcher;
     public void Interact()
     {
         if (targetBuoy != null)
@@ -28,8 +29,15 @@ public class BuoyReelButton : MonoBehaviour, IInteractable
 
             if(smokeEffect != null)
             {
-                smokeEffect.enabled = true; // Enable the smoke effect
-                smokeEffect.Play();
+                if (smokeEffect != null)
+                {
+                    smokeEffect.Reinit();  // Optional: ensures it's clean
+                    smokeEffect.Play();    // Start
+                }
+            }
+            if(cameraSwitcher != null)
+            {
+                cameraSwitcher.ActivateThirdPerson();
             }
         }
     }
@@ -48,7 +56,7 @@ public class BuoyReelButton : MonoBehaviour, IInteractable
         if (smokeEffect != null)
         {
             smokeEffect.Stop();     // Stops emission
-            smokeEffect.enabled = false; // Fully disables it (optional depending on effect type)
+           // smokeEffect.enabled = false; // Fully disables it (optional depending on effect type)
         }
     }
 
