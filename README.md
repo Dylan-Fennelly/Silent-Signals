@@ -72,7 +72,7 @@ Assets/
 
 ## 📽️ Screencast
 
-🎬 [View Screencast on YouTube](#)
+🎬 [View Screencast on YouTube](https://youtu.be/Wt_ey6ONmz8)
 
 The screencast demonstrates:
 - Core mechanics and gameplay loop
