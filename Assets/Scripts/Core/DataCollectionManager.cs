@@ -1,5 +1,6 @@
 using Codice.CM.Common;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class DataCollectionManager : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class DataCollectionManager : MonoBehaviour
 
     public InformationGathered informationGathered;
     public ObjectiveUIManager uiManager;
+    public UnityEvent onAllInformationGathered;
 
     private void Awake()
     {
@@ -59,6 +61,12 @@ public class DataCollectionManager : MonoBehaviour
         if (uiManager != null)
         {
             uiManager.UpdateObjectives(informationGathered);
+        }
+
+        // Check if all data has been collected
+        if (informationGathered.OceanDataGathered && informationGathered.SeismicDataGathered && informationGathered.WindDataGathered)
+        {
+            onAllInformationGathered?.Invoke();
         }
     }
 }
